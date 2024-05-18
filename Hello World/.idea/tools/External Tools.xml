@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="helloWorld" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\matth\OneDrive - University of Witwatersrand\School\2024\COMS\3008A - PC\Side Quests\MPI\MPICH\Hello World\helloWorld" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Hello World" />
+    </exec>
+  </tool>
+</toolSet>

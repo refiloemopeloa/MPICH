@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="b8dd79e6-161e-45f7-b5e4-41834db8fbcd" name="mpiexec helloWorld" defaultType="TOOL">
+      <configuration id="a844992f-659c-435a-9bed-299659279070" name="mpiexec helloWorld" toolchainName="WSL">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_helloWorld" />
+        </build>
+      </configuration>
+    </target>
+  </component>
+</project>
