@@ -24,12 +24,18 @@ void round_robin(int rank, int procs, FILE *fptr) {
     if (rank%2==0){//if the processors are even, send first, then receive
     fprintf(fptr,"%d: sending %ld to %d\n", rank, rand_mine, rank_next);
                                //number of longs to send //tag is 1
-    MPI_Send((void *)&rand_mine, 1, MPI_LONG, rank_next, 1, MPI_COMM_WORLD);
+    MPI_Sendrecv((void *)&rand_mine, 1, MPI_LONG, rank_next, 1,
             //buffer              //sending a long //destination is rank_next
+
+                        //number of longs to send //tag is 1
+    (void *)&rand_prev, 1, MPI_LONG, rank_prev, 1,
+    //buffer              //receiving a long //source is rank_prev
+
+    MPI_COMM_WORLD, &status);
+                    //status of communication
+
     fprintf(fptr,"%d: receiving from %d\n", rank, rank_prev);
-        //number of longs to send //tag is 1
-    MPI_Recv((void *)&rand_prev, 1, MPI_LONG, rank_prev, 1, MPI_COMM_WORLD, &status);
-        //buffer              //receiving a long //source is rank_prev     //status of communication
+
     }else {
     fprintf(fptr,"%d: receiving from %d\n", rank, rank_prev);
     MPI_Recv((void *)&rand_prev, 1, MPI_LONG, rank_prev, 1, MPI_COMM_WORLD, &status);
