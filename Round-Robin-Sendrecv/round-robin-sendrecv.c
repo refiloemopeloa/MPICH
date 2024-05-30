@@ -38,11 +38,12 @@ void round_robin(int rank, int procs, FILE *fptr) {
 
     }else {
     fprintf(fptr,"%d: receiving from %d\n", rank, rank_prev);
-    MPI_Recv((void *)&rand_prev, 1, MPI_LONG, rank_prev, 1, MPI_COMM_WORLD, &status);
+
+    MPI_Sendrecv((void *)&rand_mine, 1, MPI_LONG, rank_next, 1,
+    (void *)&rand_prev, 1, MPI_LONG, rank_prev, 1,
+    MPI_COMM_WORLD, &status);
 
     fprintf(fptr,"%d: sending %ld to %d\n", rank, rand_mine, rank_next);
-    MPI_Send((void *)&rand_mine, 1, MPI_LONG, rank_next, 1, MPI_COMM_WORLD);
-
     }
 
     fprintf(fptr,"%d: >> I had %ld, %d had %ld\n", rank, rand_mine, rank_prev, rand_prev);
