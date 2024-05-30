@@ -1,0 +1,5 @@
+Terminal command for sorting:
+	sort --numeric-sort --stable output.txt
+command for sending output to text file
+	sort --numeric-sort --stable output.txt > sorted.txt
+
