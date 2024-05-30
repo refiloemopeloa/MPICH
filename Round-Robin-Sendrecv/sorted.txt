@@ -1,80 +1,20 @@
-0: Hello World from communicator 0 of 16!
-0: random is 38
-0: sending 38 to 1
-0: receiving from 15
-0: >> I had 38, 15 had 76
-1: Hello World from communicator 1 of 16!
-1: random is 75
+0: Hello World from communicator 0 of 4!
+0: random is 39
+0: sending 39 to 1
+0: receiving from 3
+0: >> I had 39, 3 had 97
+1: Hello World from communicator 1 of 4!
+1: random is 25
 1: receiving from 0
-1: sending 75 to 2
-1: >> I had 75, 0 had 38
-2: Hello World from communicator 2 of 16!
-2: random is 60
-2: sending 60 to 3
+1: sending 25 to 2
+1: >> I had 25, 0 had 39
+2: Hello World from communicator 2 of 4!
+2: random is 11
+2: sending 11 to 3
 2: receiving from 1
-2: >> I had 60, 1 had 75
-3: Hello World from communicator 3 of 16!
-3: random is 96
+2: >> I had 11, 1 had 25
+3: Hello World from communicator 3 of 4!
+3: random is 97
 3: receiving from 2
-3: sending 96 to 4
-3: >> I had 96, 2 had 60
-4: Hello World from communicator 4 of 16!
-4: random is 32
-4: sending 32 to 5
-4: receiving from 3
-4: >> I had 32, 3 had 96
-5: Hello World from communicator 5 of 16!
-5: random is 68
-5: receiving from 4
-5: sending 68 to 6
-5: >> I had 68, 4 had 32
-6: Hello World from communicator 6 of 16!
-6: random is 54
-6: sending 54 to 7
-6: receiving from 5
-6: >> I had 54, 5 had 68
-7: Hello World from communicator 7 of 16!
-7: random is 90
-7: receiving from 6
-7: sending 90 to 8
-7: >> I had 90, 6 had 54
-8: Hello World from communicator 8 of 16!
-8: random is 26
-8: sending 26 to 9
-8: receiving from 7
-8: >> I had 26, 7 had 90
-9: Hello World from communicator 9 of 16!
-9: random is 12
-9: receiving from 8
-9: sending 12 to 10
-9: >> I had 12, 8 had 26
-10: Hello World from communicator 10 of 16!
-10: random is 97
-10: sending 97 to 11
-10: receiving from 9
-10: >> I had 97, 9 had 12
-11: Hello World from communicator 11 of 16!
-11: random is 33
-11: receiving from 10
-11: sending 33 to 12
-11: >> I had 33, 10 had 97
-12: Hello World from communicator 12 of 16!
-12: random is 69
-12: sending 69 to 13
-12: receiving from 11
-12: >> I had 69, 11 had 33
-13: Hello World from communicator 13 of 16!
-13: random is 5
-13: receiving from 12
-13: sending 5 to 14
-13: >> I had 5, 12 had 69
-14: Hello World from communicator 14 of 16!
-14: random is 91
-14: sending 91 to 15
-14: receiving from 13
-14: >> I had 91, 13 had 5
-15: Hello World from communicator 15 of 16!
-15: random is 76
-15: receiving from 14
-15: sending 76 to 0
-15: >> I had 76, 14 had 91
+3: sending 97 to 0
+3: >> I had 97, 2 had 11
