@@ -1,0 +1,1 @@
+mpicc -g -Wl,-Bsymbolic-functions CMakeFiles/non-block-one-to-many.dir/non-block-one-to-many.c.o -o non-block-one-to-many  /usr/lib/x86_64-linux-gnu/libmpich.so 

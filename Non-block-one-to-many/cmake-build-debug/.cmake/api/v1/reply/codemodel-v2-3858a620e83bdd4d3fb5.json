@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "non-block-one-to-many",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "non-block-one-to-many::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-non-block-one-to-many-Debug-02d630c98ab973bae0b6.json",
+					"name" : "non-block-one-to-many",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-Debug-a30aba44fd84bd38c6e7.json",
+					"name" : "run",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Non-block-one-to-many/cmake-build-debug",
+		"source" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Non-block-one-to-many"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
