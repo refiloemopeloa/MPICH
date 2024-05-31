@@ -1,9 +1,16 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include <time.h>
 #include <mpi.h>
 
-void debug(int rank, char *format, ...)
+void start_timer(double *time){
+    *time = MPI_Wtime();
+}
+
+double get_time(double *time){
+    return MPI_Wtime() - *time;
+}
+
+void debug(double time, int rank, char *format, ...)
 {
 
     va_list args; // Variable argument list
@@ -12,7 +19,7 @@ void debug(int rank, char *format, ...)
                             //  format is the last argument before ...
                             //  tells stac how to find unknown number of arguments
 
-    printf("%2d|", rank);
+    printf("%12.6f|%2d|", get_time(&time), rank);
     vprintf(format, args);
 
     va_end(args);
