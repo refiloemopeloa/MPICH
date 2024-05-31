@@ -1,6 +1,7 @@
 # include <stdio.h>
 # include <mpi.h>
 #include <stdlib.h>
+# include <unistd.h>
 # include <time.h>
 # include "../Debugging wth Varargs/debugger.c"
 
@@ -26,6 +27,16 @@ long broadcast(int rank,int procs) {
     }
 
     return random_value;
+}
+
+void barrier(int rank, long random_value) {
+    int nap_time = random_value + (2 * rank);
+    debug(rank, "sleeping %ds\n", nap_time);
+    sleep(nap_time);
+
+    debug(rank, "enter b-a-r-r-i-e-r-\n");
+    MPI_Barrier(MPI_COMM_WORLD);
+    debug(rank, "leave barrier\n");
 }
 
 int main(int argc, char **argv) {
