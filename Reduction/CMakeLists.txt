@@ -13,7 +13,9 @@ set(CMAKE_C_COMPILER mpicc)
 include_directories(SYSTEM ${MPI_INCLUDE_PATH})
 
 # Add the executable
-add_executable(reduction reduction.c)
+add_executable(reduction reduction.c
+        reduction-array.c
+        reduction-array.c)
 
 # Link the MPI library
 target_link_libraries(reduction MPI::MPI_C)

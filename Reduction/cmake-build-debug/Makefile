@@ -142,6 +142,30 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+reduction-array.o: reduction-array.c.o
+.PHONY : reduction-array.o
+
+# target to build an object file
+reduction-array.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reduction.dir/build.make CMakeFiles/reduction.dir/reduction-array.c.o
+.PHONY : reduction-array.c.o
+
+reduction-array.i: reduction-array.c.i
+.PHONY : reduction-array.i
+
+# target to preprocess a source file
+reduction-array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reduction.dir/build.make CMakeFiles/reduction.dir/reduction-array.c.i
+.PHONY : reduction-array.c.i
+
+reduction-array.s: reduction-array.c.s
+.PHONY : reduction-array.s
+
+# target to generate assembly for a file
+reduction-array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reduction.dir/build.make CMakeFiles/reduction.dir/reduction-array.c.s
+.PHONY : reduction-array.c.s
+
 reduction.o: reduction.c.o
 .PHONY : reduction.o
 
@@ -176,6 +200,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... reduction"
+	@echo "... reduction-array.o"
+	@echo "... reduction-array.i"
+	@echo "... reduction-array.s"
 	@echo "... reduction.o"
 	@echo "... reduction.i"
 	@echo "... reduction.s"
