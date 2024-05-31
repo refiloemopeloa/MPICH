@@ -1,0 +1,1 @@
+mpicc -g -Wl,-Bsymbolic-functions CMakeFiles/Allreduce.dir/Allreduce.c.o -o Allreduce  /usr/lib/x86_64-linux-gnu/libmpich.so 

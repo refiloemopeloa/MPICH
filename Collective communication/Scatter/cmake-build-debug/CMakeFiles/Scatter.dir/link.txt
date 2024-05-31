@@ -1,0 +1,1 @@
+mpicc -g -Wl,-Bsymbolic-functions CMakeFiles/Scatter.dir/Scatter.c.o -o Scatter  /usr/lib/x86_64-linux-gnu/libmpich.so 
