@@ -1,0 +1,1 @@
+mpicc -g -Wl,-Bsymbolic-functions CMakeFiles/reduction.dir/reduction.c.o -o reduction  /usr/lib/x86_64-linux-gnu/libmpich.so 
