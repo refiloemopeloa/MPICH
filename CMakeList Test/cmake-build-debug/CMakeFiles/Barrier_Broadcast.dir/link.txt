@@ -1,1 +1,0 @@
-mpicc -g -Wl,-Bsymbolic-functions CMakeFiles/Barrier_Broadcast.dir/broadcast-barrier.c.o -o Barrier_Broadcast  /usr/lib/x86_64-linux-gnu/libmpich.so 

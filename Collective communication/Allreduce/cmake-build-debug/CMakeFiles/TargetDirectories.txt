@@ -1,0 +1,4 @@
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Allreduce/cmake-build-debug/CMakeFiles/Allreduce.dir
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Allreduce/cmake-build-debug/CMakeFiles/run.dir
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Allreduce/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Allreduce/cmake-build-debug/CMakeFiles/rebuild_cache.dir
