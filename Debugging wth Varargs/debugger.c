@@ -1,5 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include <time.h>
+#include <mpi.h>
 
 void debug(int rank, char *format, ...)
 {
@@ -10,7 +12,7 @@ void debug(int rank, char *format, ...)
                             //  format is the last argument before ...
                             //  tells stac how to find unknown number of arguments
 
-    printf("%12.6f|%2d|", get_timer(), rank);
+    printf("%2d|", rank);
     vprintf(format, args);
 
     va_end(args);

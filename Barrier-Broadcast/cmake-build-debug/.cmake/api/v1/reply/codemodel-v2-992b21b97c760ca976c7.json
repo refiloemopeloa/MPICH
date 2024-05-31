@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Barrier_Broadcast",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Barrier_Broadcast::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Barrier_Broadcast-Debug-306416e337451e956c92.json",
+					"name" : "Barrier_Broadcast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-Debug-1f4e37c60dbe841d0247.json",
+					"name" : "run",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Barrier-Broadcast/cmake-build-debug",
+		"source" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Barrier-Broadcast"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
