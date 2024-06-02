@@ -3,7 +3,7 @@
 # include <mpi.h>
 
 int *get_random_list(int size, int seed) {
-    srand(seed*2);
+    srand(seed * 2);
     int *array = (int *) malloc(size * sizeof(int));
     for (int i = 0; i < size; i++) {
         array[i] = rand() % (size * size);
@@ -27,7 +27,7 @@ int main(int argc, char **argv) {
         printf("%d |\t", array_before[i]);
     }
 
-        MPI_Scan(array_before, array_after, 4, MPI_INT, MPI_MIN, MPI_COMM_WORLD);
+    MPI_Scan(array_before, array_after, 4, MPI_INT, MPI_MIN, MPI_COMM_WORLD);
 
     printf("Elements on process %d after scan :\n", rank);
     for (int i = 0; i < 4; i++) {
