@@ -55,7 +55,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug"
+========
+			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -539,7 +543,11 @@
 				}
 			],
 			"type" : "INTERNAL",
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan"
+========
+			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -779,7 +787,11 @@
 				}
 			],
 			"type" : "STATIC",
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"value" : "scan"
+========
+			"value" : "Scatter"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1386,7 +1398,11 @@
 			"value" : "/usr/sbin/sysctl"
 		},
 		{
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"name" : "scan_BINARY_DIR",
+========
+			"name" : "Scatter_BINARY_DIR",
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 			"properties" : 
 			[
 				{
@@ -1395,10 +1411,17 @@
 				}
 			],
 			"type" : "STATIC",
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug"
 		},
 		{
 			"name" : "scan_IS_TOP_LEVEL",
+========
+			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug"
+		},
+		{
+			"name" : "Scatter_IS_TOP_LEVEL",
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 			"properties" : 
 			[
 				{
@@ -1410,7 +1433,11 @@
 			"value" : "ON"
 		},
 		{
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"name" : "scan_SOURCE_DIR",
+========
+			"name" : "Scatter_SOURCE_DIR",
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 			"properties" : 
 			[
 				{
@@ -1419,7 +1446,11 @@
 				}
 			],
 			"type" : "STATIC",
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a5e6cf729f823a814be6.json
 			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan"
+========
+			"value" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cache-v2-682a43277c3ac15b7777.json
 		}
 	],
 	"kind" : "cache",

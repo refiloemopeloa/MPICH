@@ -440,8 +440,13 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e662cd43fabce12a3a63.json
 		"build" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug",
 		"source" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan"
+========
+		"build" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug",
+		"source" : "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-608e6d1d78ba7ee523ee.json
 	},
 	"version" : 
 	{

@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/CMakeFiles/run.dir/build.make
 CMAKE_SOURCE_DIR = "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug"
+========
+CMAKE_SOURCE_DIR = "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/CMakeFiles/run.dir/build.make
 
 # Utility rule file for run.
 
@@ -66,9 +73,15 @@ include CMakeFiles/run.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/run.dir/progress.make
 
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/CMakeFiles/run.dir/build.make
 CMakeFiles/run: scan
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running scan with 4 processors"
 	/usr/bin/mpiexec -n 4 /mnt/c/Users/matth/OneDrive\ -\ University\ of\ Witwatersrand/School/2024/COMS/3008A\ -\ PC/Side\ Quests/MPI/MPICH/Collective\ communication/Scan/cmake-build-debug/scan
+========
+CMakeFiles/run: Scatter
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running Scatter with 4 processors"
+	/usr/bin/mpiexec -n 4 /mnt/c/Users/matth/OneDrive\ -\ University\ of\ Witwatersrand/School/2024/COMS/3008A\ -\ PC/Side\ Quests/MPI/MPICH/Collective\ communication/Scatter/cmake-build-debug/Scatter
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/CMakeFiles/run.dir/build.make
 
 run: CMakeFiles/run
 run: CMakeFiles/run.dir/build.make
@@ -83,6 +96,10 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/CMakeFiles/run.dir/build.make
 	cd "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug/CMakeFiles/run.dir/DependInfo.cmake" --color=$(COLOR)
+========
+	cd "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug" "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug/CMakeFiles/run.dir/DependInfo.cmake" --color=$(COLOR)
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/CMakeFiles/run.dir/build.make
 .PHONY : CMakeFiles/run.dir/depend
 

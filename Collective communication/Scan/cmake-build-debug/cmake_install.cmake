@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/cmake_install.cmake
 # Install script for directory: /mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan
+========
+# Install script for directory: /mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/cmake_install.cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +54,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<<< HEAD:Collective communication/Scan/cmake-build-debug/cmake_install.cmake
 file(WRITE "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scan/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+========
+file(WRITE "/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Scatter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>>> origin/main:Collective communication/Scatter/cmake-build-debug/cmake_install.cmake
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
