@@ -1,0 +1,4 @@
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Reduce MPI_MIN array/cmake-build-debug/CMakeFiles/reduce_min_array.dir
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Reduce MPI_MIN array/cmake-build-debug/CMakeFiles/run.dir
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Reduce MPI_MIN array/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/matth/OneDrive - University of Witwatersrand/School/2024/COMS/3008A - PC/Side Quests/MPI/MPICH/Collective communication/Reduce MPI_MIN array/cmake-build-debug/CMakeFiles/rebuild_cache.dir

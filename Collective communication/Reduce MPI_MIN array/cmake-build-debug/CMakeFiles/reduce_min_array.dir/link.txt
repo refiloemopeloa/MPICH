@@ -1,0 +1,1 @@
+mpicc -g -Wl,-Bsymbolic-functions CMakeFiles/reduce_min_array.dir/reduce_min_array.c.o -o reduce_min_array  /usr/lib/x86_64-linux-gnu/libmpich.so 
